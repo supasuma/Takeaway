@@ -1,5 +1,4 @@
 require "twilio-ruby"
-require "dotenv"
 
 class SMS
 

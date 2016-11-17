@@ -1,5 +1,5 @@
-require 'order'
-require 'sms'
+require './lib/order'
+require './lib/sms'
 class Takeway
 
 # menu is a required object in this dependency injection so no other option provided

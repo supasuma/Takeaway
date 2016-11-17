@@ -29,6 +29,3 @@ describe SMS do
   end
 
 end
-
-
-+441224393491
