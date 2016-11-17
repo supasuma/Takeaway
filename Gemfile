@@ -1,6 +1,6 @@
-source 'https://rubygems.org'
-ruby '2.3.1'
+source "https://rubygems.org"
+ruby "2.3.1"
 
-gem 'twilio-ruby'
-gem 'dotenv'
-gem 'rspec'
+gem "twilio-ruby"
+gem "dotenv"
+gem "rspec"
