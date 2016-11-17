@@ -1,6 +1,6 @@
 require './lib/order'
 require './lib/sms'
-class Takeway
+class Takeaway
 
 # menu is a required object in this dependency injection so no other option provided
   def initialize(menu:, config:, order: nil, sms: nil)
