@@ -1,5 +1,4 @@
 require 'sms'
-require 'dotenv'
 
 describe SMS do
   subject(:sms) { described_class.new(config, client: client) }
@@ -9,8 +8,8 @@ describe SMS do
 
   let(:config) do
     {
-      account_sid: ENV['ACCOUNT_SID'],
-      auth_token: ENV['AUTH_TOKEN'],
+      account_sid: "123",
+      auth_token: "7876",
       from: "+123",
       to: "+345",
       body: "Thank you! Your order will be delivered before %s"
